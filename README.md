@@ -27,7 +27,7 @@ Infos zu Installation und Bedienung: [http://www.small.li/](http://www.small.li/
 
 ## ESP-basierte Stechuhr
 
-[terminal]: doc/Stechuhr.jpg ""
+![](doc/Stechuhr.jpg "")
 
 Uhr wird über cron_job/update.php ausgelesen 
 
