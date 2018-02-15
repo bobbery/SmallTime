@@ -22,6 +22,8 @@ if (strstr($_template->_bootstrap,'true')){
                 <li<?php echo $_action=="idtime-generate" ?  ' class="active"':''; ?>><a id="Codes" title="QR-Codes" href="?action=idtime-generate">QR-Codes</a></li>
                 <li<?php echo $_action=="pdfgenerate" ?  ' class="active"':''; ?>><a id="pdfgenerate" title="pdfgenerate" href="?action=pdfgenerate">PDF</a></li>
                 <li<?php echo $_action=="logout" ?  ' class="active"':''; ?>><a id="Logout" title="Logout" href="?action=logout">Logout</a></li>
+                <li><a id="Settings" title="Zeit setzen" href="./set_time.php">Zeit setzen</a></li>
+                <li><a id="Import" title="Backup" href="./backup.php">Backup durchf&uumlhren</a></li>
         </ul>
 <?php 
 //TODO : Template ohne Bootstrap -> löschen
