@@ -22,3 +22,16 @@ Infos zu Installation und Bedienung: [http://www.small.li/](http://www.small.li/
 * ./import
 * ./debug
 * ./include/Settings
+
+# Erweiterung von SmallTime in diesem Fork
+
+## ESP-basierte Stechuhr
+
+[terminal]: doc/Stechuhr.jpg ""
+
+Uhr wird über cron_job/update.php ausgelesen 
+
+## Neue Buttons 
+
+Einfaches Backup aller Daten
+Stellen der Uhrzeit des Terminals
